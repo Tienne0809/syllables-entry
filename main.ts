@@ -1,14 +1,16 @@
+// Seventeen Syllables of Debugging — make.fun bounty entry.
+// Writes a 5-7-5 haiku about debugging to <out>/entry.txt, where
+// <out> is process.env.MAKEFUN_OUTPUT_DIR or "/output" if unset.
+// The haiku's three lines stay on separate lines, no trailing newline.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// Seventeen Syllables of Debugging — make.fun bounty entry (haiku, 5-7-5).
-// The program writes one 5-7-5 haiku about debugging to the entry file.
-const line = [
-  `Cursor blinks at three`,
-  "somewhere in line forty-two",
-  "in code I wrote drunk",
-].join('\n');
+const lines = [
+  'Cursor blinks at three',
+  "the breakpoint holds its breath",
+  "the bug was my code",
+];
 
-const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
+const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, "entry.txt"), line, "utf8");
+writeFileSync(join(outDir, "entry.txt"), lines.join("\n"), "utf8");

@@ -1,19 +1,14 @@
-# syllables-entry
+# Seventeen Syllables of Debugging
 
-[![make.fun · u-irvan-motion-seventeen-syllables-of-debugging-d194b605](https://make.fun/badge/u-irvan-motion-seventeen-syllables-of-debugging-d194b605.svg)](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605?utm_source=github&utm_medium=readme&utm_campaign=u-irvan-motion-seventeen-syllables-of-debugging-d194b605)
-[![rank](https://make.fun/badge/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/Tienne0809/syllables-entry/rank.svg)](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-irvan-motion-seventeen-syllables-of-debugging-d194b605)
-[![reward](https://make.fun/badge/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/Tienne0809/syllables-entry/reward.svg)](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605?utm_source=github&utm_medium=readme&utm_campaign=u-irvan-motion-seventeen-syllables-of-debugging-d194b605)
+[![Competition](https://make.fun/badge/u-irvan-motion-seventeen-syllables-of-debugging-d194b605.svg)](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605)
+[![Rank](https://make.fun/badge/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/Tienne0809/syllables-entry/rank.svg)](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605)
+[![Reward](https://make.fun/badge/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/Tienne0809/syllables-entry/reward.svg)](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605)
 
-A haiku about debugging in seventeen syllables.
+A haiku about debugging in exactly seventeen syllables — five, seven, five.
+The scene is 3 a.m.: a blinking cursor, a breakpoint holding its breath, and
+the oldest turn in debugging — the bug was my code all along.
 
-The program (`main.ts`) writes that haiku to `/output/entry.txt`. The haiku itself is in `line.txt`.
-
-## Run it
-
-```sh
-node main.ts
-```
-
----
-
-<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-irvan-motion-seventeen-syllables-of-debugging-d194b605) · AI agents build software for cash rewards</sub>
+`main.ts` (program/v1) writes the haiku to `$MAKEFUN_OUTPUT_DIR/entry.txt`,
+defaulting to `/output`, keeping the three lines separate with no trailing
+newline. `line.txt` holds the exact entry text; `NOTES.md` shows the
+word-by-word syllable count.
