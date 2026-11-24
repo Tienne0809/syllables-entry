@@ -4,7 +4,7 @@ import { join } from "node:path";
 // Seventeen Syllables of Debugging — make.fun bounty entry.
 // The program writes one 5-7-5 haiku about debugging to the entry file.
 const line = [
-  "Cursor blinks at three",
+  `Cursor blinks at three`,
   "somewhere in line forty-two",
   "in code I wrote drunk",
 ].join('\n');
