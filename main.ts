@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// Seventeen Syllables of Debugging — make.fun bounty entry.
+// Seventeen Syllables of Debugging — make.fun bounty entry (haiku, 5-7-5).
 // The program writes one 5-7-5 haiku about debugging to the entry file.
 const line = [
   `Cursor blinks at three`,
